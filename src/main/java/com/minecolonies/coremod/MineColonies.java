@@ -217,7 +217,9 @@ public class MineColonies
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.VISITOR, RenderBipedCitizen::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.FISHHOOK, RenderFishHook::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.FIREARROW, FireArrowRenderer::new);
+
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.MC_NORMAL_ARROW, TippedArrowRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(ModEntities.AMAZONSPEAR, AmazonSpearRenderer::new);
 
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.BARBARIAN, RendererBarbarian::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntities.ARCHERBARBARIAN, RendererBarbarian::new);

@@ -70,6 +70,7 @@ public final class ModItemsInitializer
         ModItems.pharaoscepter = new ItemPharaoScepter(new Item.Properties());
         ModItems.firearrow = new ItemFireArrow(new Item.Properties());
         ModItems.scepterBeekeeper = new ItemScepterBeekeeper(new Item.Properties());
+        ModItems.amazonSpear = new ItemAmazonSpear(new Item.Properties());
 
         ModItems.breadDough = new ItemBreadDough(new Item.Properties());
         ModItems.cookieDough = new ItemCookieDough(new Item.Properties());

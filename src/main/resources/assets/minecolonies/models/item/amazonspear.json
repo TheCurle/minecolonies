@@ -1,0 +1,7 @@
+{
+  "parent": "item/gemerated",
+
+  "textures": {
+    "layer0": "minecolonies:items/amazonspear"
+  }
+}

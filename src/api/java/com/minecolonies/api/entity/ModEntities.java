@@ -11,7 +11,11 @@ import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
+<<<<<<< HEAD
 import net.minecraft.entity.projectile.ArrowEntity;
+=======
+import net.minecraft.entity.projectile.ProjectileEntity;
+>>>>>>> f2b489590... Starting the Amazon Spear
 import net.minecraftforge.registries.ObjectHolder;
 
 @ObjectHolder(Constants.MOD_ID)
@@ -81,4 +85,7 @@ public class ModEntities
     public static EntityType<? extends AbstractArrowEntity> FIREARROW;
 
     public static EntityType<? extends ArrowEntity> MC_NORMAL_ARROW;
+    
+    @ObjectHolder("amazonspear")
+    public static EntityType<? extends ProjectileEntity> AMAZONSPEAR;
 }
